@@ -42,7 +42,7 @@ As shown below, the inferred masks predicted by our segmentation model trained b
 <tr>
 <th>Input: image</th>
 <th>Mask (ground_truth)</th>
-<th>Prediction: inferred_mask</th>
+<th>Prediction: tiled_inferred_mask</th>
 </tr>
 <tr>
 <td><img src="./projects/TensorFlowFlexUNet/Aluminum-Surface-Defect/mini_test/images/103.jpg" width="320" height="auto"></td>
@@ -273,7 +273,7 @@ dice_coef_multiclass,0.967
 Please move to a <b>./projects/TensorFlowFlexUNet/Aluminum-Surface-Defect</b> folder<br>
 ,and run the following bat file to infer segmentation regions for images by the Trained-TensorflowFlexUNet model for Aluminum-Surface-Defect.<br>
 <pre>
->./4.infer.bat
+>./4.tiled_infer.bat
 </pre>
 This simply runs the following command.
 <pre>
@@ -285,7 +285,7 @@ This simply runs the following command.
 <b>mini_test_mask(ground_truth)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Aluminum-Surface-Defect/asset/mini_test_masks.png" width="1024" height="auto"><br>
 <hr>
-<b>Inferred test masks</b><br>
+<b>Tiled Inferred test masks</b><br>
 <img src="./projects/TensorFlowFlexUNet/Aluminum-Surface-Defect/asset/mini_test_output_tiled.png" width="1024" height="auto"><br>
 <br>
 <hr>
@@ -300,7 +300,7 @@ As shown below, the inferred masks predicted by our segmentation model trained b
 <tr>
 <th>Input: image</th>
 <th>Mask (ground_truth)</th>
-<th>Prediction: inferred_mask</th>
+<th>Prediction: tiled_inferred_mask</th>
 </tr>
 <tr>
 <td><img src="./projects/TensorFlowFlexUNet/Aluminum-Surface-Defect/mini_test/images/324.jpg" width="320" height="auto"></td>
